@@ -53,7 +53,7 @@ http://localhost:8080/cliente/1
 Selecionar a requisição "POST", clicar em "Body" para inserir as informações. Por exemplo:
 
 POST 
-http://localhost:8080/cliente/
+http://localhost:8080/cliente/ 
 {
 
     "id": 1,
@@ -77,7 +77,7 @@ A requisição PUT é utilizada para atualizar algum registro passando por parâ
 PUT
 http://localhost:8080/cliente/1
 
-Body:
+Body: 
 {
 
   "nome": "Babata",
