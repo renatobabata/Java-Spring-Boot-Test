@@ -15,8 +15,11 @@
 
 O sistema não foi concluído com sucesso, pois não consegui realizar a conexão com banco de dados (H2), por consequência não consegui realizar os devidos testes add, update, delete e select. 
 Ao tentar realizar os testes através do Postman, apareceu a seguinte mensagem de erro:
+
 "status": 404
+
 "error": "Not Found"
+
 
 # Serviços 
 
@@ -58,6 +61,8 @@ POST
 
 http://localhost:8080/cliente/ 
 
+Body:
+
 {
 
     "id": 1,
@@ -91,6 +96,25 @@ Body:
   "idade": 31,
   
 }
+
+
+# Empacotar o projeto
+
+Utilizando a IDE Eclipse, após implementar todos os arquivos, salve o projeto.
+Para exportar o projeto deve seguir o seguinte procedimento:
+
+File -> Export -> Java -> JAR File 
+
+Na próxima janela, selecione o projeto que você vai exportar. 
+na opção "JAR File" , selecione o diretório onde você deseja exportar e coloque um nome ao arquivo.
+
+# Ambiente de produção
+
+Ao testar e verificar que o projeto esteja funcionando corretamente,faça um backup do .jar que está atualmente em produção, após isso enviar o arquivo .jar para a máquina produção no mesmo diretório. 
+
+
+
+
 
 
 
