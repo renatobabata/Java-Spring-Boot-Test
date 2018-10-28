@@ -39,6 +39,7 @@ Ao acessar o Postman, selecionar a opção "GET" e passar como parâmetro o nome
 Como os testes foram realizados localmente, o endereço utilizado é "http://localhost:8080".
 
 GET 
+
 http://localhost:8080/cliente
 
 # Consultar registro de cliente por Id
@@ -46,6 +47,7 @@ http://localhost:8080/cliente
 Utilizar a requisição "GET" com parâmetro de ID.
 
 GET 
+
 http://localhost:8080/cliente/1
 
 # Criar registro de cliente
@@ -53,7 +55,9 @@ http://localhost:8080/cliente/1
 Selecionar a requisição "POST", clicar em "Body" para inserir as informações. Por exemplo:
 
 POST 
+
 http://localhost:8080/cliente/ 
+
 {
 
     "id": 1,
@@ -75,9 +79,11 @@ DELETE http://localhost:8080/cliente/1
 A requisição PUT é utilizada para atualizar algum registro passando por parâmetro o ID, e as informações através do "Body"
 
 PUT
+
 http://localhost:8080/cliente/1
 
 Body: 
+
 {
 
   "nome": "Babata",
