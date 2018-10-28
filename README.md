@@ -13,6 +13,8 @@
 
 # Observações Gerais
 
+O projeto está no diretório src/ neste repositório.
+
 O sistema não foi concluído com sucesso, pois não consegui realizar a conexão com banco de dados (H2), por consequência não consegui realizar os devidos testes add, update, delete e select. 
 Ao tentar realizar os testes através do Postman, apareceu a seguinte mensagem de erro:
 
