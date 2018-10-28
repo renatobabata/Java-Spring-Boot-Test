@@ -18,10 +18,11 @@
 # Serviços 
 
 
--Consultar registro de cliente
--Criar registro de cliente
--Deletar registro de cliente
--Atualizar registro de cliente
+-Consultar registro de cliente.
+-Criar registro de cliente.
+-Deletar registro de cliente.
+-Atualizar registro de cliente.
+
 
 
 
