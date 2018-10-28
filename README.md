@@ -55,9 +55,13 @@ Selecionar a requisição "POST", clicar em "Body" para inserir as informações
 POST 
 http://localhost:8080/cliente/
 {
+
     "id": 1,
+    
     "nome": "Renato",
+    
     "idade": "30",
+    
 }
 
 # Deletar registro de cliente
@@ -75,8 +79,11 @@ http://localhost:8080/cliente/1
 
 Body:
 {
+
   "nome": "Babata",
+  
   "idade": 31,
+  
 }
 
 
